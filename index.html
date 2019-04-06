@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+  <div class="container">
+<!------ Include the above in your HEAD tag ---------->
+
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Registro</legend>
+
+<!--Lista_Desplegable--> 
+<div class="form-group">
+<label for="Tipo de Documento">Tipo de Documento</label>
+  <select name="Tipo de Documento">
+                  <option value="Tipo de Documento">...</option>
+                  <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                  <option value="Cedula de Ciudadania">Cedula de Ciudadania</option>
+                  <option value="Cedula de Extranjeria">Cedula de Extranjeria</option>
+               </select>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+    <label class="col-md-4 control-label" for="nombre">Documento</label>
+  <div class="col-md-4">
+  <input id="Documento" name="Documento" type="number" placeholder="" class="form-control input-md" required="">
+  
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="nombre">*Nombres</label>
+  <div class="col-md-4">
+  <input id="nombre" name="nombre" type="text" placeholder="" class="form-control input-md" required="">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="apellido">*Apellidos</label>  
+  <div class="col-md-4">
+  <input id="apellido" name="apellido" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="date">Fecha nacimiento</label>  
+  <div class="col-md-4">
+  <input id="Fecha" name="Fecha" type="date" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="mail2">Direccion</label>  
+  <div class="col-md-4">
+  <input id="Direccion" name="Direccion" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+
+
+<!-- text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="contra">*Telefono</label>
+  <div class="col-md-4">
+    <input id="Telefono" name="Telefono" type="number" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Departamento">Departamento</label>
+  <div class="col-md-4">
+    <select id="Departamento" name="Departamento" class="form-control">
+      <option value="0">...</option>
+      <option value="1"> Amazonas: Leticia</option>
+      <option value="2">Antioquia: Medellín</option>
+      <option value="3">Arauca: Arauca</option>
+      <option value="4">Atlántico: Barranquilla</option>
+      <option value="5">Bolívar: Cartagena</option>
+      <option value="6">Boyacá: Tunja</option>
+      <option value="7">Caldas: Manizales</option>
+      <option value="8">Caquetá: Florencia</option>
+      <option value="9">Casanare: Yopal</option>
+      <option value="10">Cauca: Popayán</option>
+      <option value="11">Cesar: Valledupar</option>
+      <option value="12">Chocó: Quibdó</option>
+      <option value="13">Córdoba: Montería</option>
+      <option value="14">Cundinamarca: Bogotá</option>
+      <option value="15">Guainía: Puerto Inírida</option>
+      <option value="16">Guaviare: San José del Guaviare</option>
+      <option value="17"> Huila: Neiva</option>
+      <option value="18">La Guajira: Riohacha</option>
+      <option value="19">Magdalena: Santa Marta</option>
+      <option value="20">Meta: Villavicencio</option>
+      <option value="21">Nariño: Pasto</option>
+      <option value="22"> Norte de Santander: Cúcuta</option>
+    </select>
+  </div>
+</div>
+<!-- email input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="contra2">Correo electronico</label>
+  <div class="col-md-4">
+    <input id="Correo" name="Correo" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="registrar"></label>
+  <div class="col-md-4">
+    <button id="registrar" name="registrar" class="btn btn-primary">Registrar</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</body>
+</html>
